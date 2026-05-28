@@ -1,6 +1,9 @@
 # Hybrid Book Recommendation System
 
+
+
 ## Overview
+Data: [500k Dataset](https://www.kaggle.com/datasets/nadeef123/500k-books/data) (Books having Genre 'Others' are removed in the code. So final dataset contains around 180k rows) 
 
 This project implements a **hybrid book recommendation system** that combines:
 
