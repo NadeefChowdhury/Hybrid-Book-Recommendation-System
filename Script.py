@@ -5,10 +5,12 @@ from sklearn.preprocessing import normalize
 
 # =========================
 # LOAD DATA
+df = pd.read_csv(filename.csv)
+df = df[~df['Genres'].str.lower().str.strip().str.contains('other', na=False)]
 # =========================
 print("------------DATASET INFO--------------")
 print(df.info())
-print("---------------------------")
+print("--------------------------------------")
 
 # =========================
 # BASIC CLEANING
