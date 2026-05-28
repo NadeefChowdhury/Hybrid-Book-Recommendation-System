@@ -45,7 +45,7 @@ The recommendation pipeline consists of three independent modules:
 
 All components are combined at the final stage:
 
-[
+
 Score = alpha * CF + (1-alpha) * Content
 
 Where:
