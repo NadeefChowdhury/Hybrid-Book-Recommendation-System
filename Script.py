@@ -102,8 +102,8 @@ from scipy.sparse import hstack
 content_matrix = hstack([
     mat_genre * 0.30,
     mat_author * 0.25,
-    mat_publisher * 0.5,
-    mat_review * 0.5,
+    mat_publisher * 0.05,
+    mat_review * 0.05,
     mat_rating * 0.15,
     mat_count * 0.2
 ])
